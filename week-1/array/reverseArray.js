@@ -6,9 +6,7 @@ function reverseArrayInPlace(array) {
 
   while (left < right) {
     // Swap elements at left and right indices
-    var temp = array[left];
-    array[left] = array[right];
-    array[right] = temp;
+   [array[left],array[right]]=[array[right],array[left]]
 
     // Move pointers towards the center
     left++;

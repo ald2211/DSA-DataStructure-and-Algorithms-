@@ -54,4 +54,4 @@ function kadanesMaxSubString(str) {
   return (n * (n + 1)) / 2;
 }
 
-console.log("maxSubStringSimplified:", kadanesMaxSubString("hell0"));
+console.log("maxSubStringSimplified:", kadanesMaxSubString("hello"));
